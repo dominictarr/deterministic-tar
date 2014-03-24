@@ -1,0 +1,21 @@
+{
+  "name": "deterministic-tar",
+  "description": "generate a tarball that hashes consistently",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dominictarr/deterministic-tar",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/deterministic-tar.git"
+  },
+  "dependencies": {
+    "tar-stream": "dominictarr/tar-stream",
+    "bun": "0.0.10",
+    "duplexer": "~0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (dominictarr.com)",
+  "license": "MIT"
+}

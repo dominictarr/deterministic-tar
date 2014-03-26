@@ -8,7 +8,7 @@
     "url": "git://github.com/dominictarr/deterministic-tar.git"
   },
   "dependencies": {
-    "tar-stream": "dominictarr/tar-stream",
+    "tar-stream": "0.3.0",
     "bun": "0.0.10",
     "duplexer": "~0.1.1"
   },

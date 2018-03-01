@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+var deterministic = require('./index.js')
+
+process.stdin
+  .pipe(deterministic())
+  .pipe(process.stdout)

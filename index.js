@@ -30,8 +30,3 @@ var deterministic = module.exports = function (map) {
 
   return duplexer(extract, pack)
 }
-
-if(!module.parent)
-  process.stdin
-    .pipe(deterministic())
-    .pipe(process.stdout)

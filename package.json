@@ -1,7 +1,7 @@
 {
   "name": "deterministic-tar",
   "description": "generate a tarball that hashes consistently",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "bin": "./deterministic-tar",
   "homepage": "https://github.com/dominictarr/deterministic-tar",
   "repository": {
